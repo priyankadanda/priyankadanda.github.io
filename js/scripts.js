@@ -125,7 +125,7 @@ class MessageUser extends React.Component {
 const totalMessages = 14; //Number of total messages goes here
 var messagesRemaining = 9; //Number of messages remaining after intro
 
-const outroMessage = "Thanks for hanging out! Don't forget to check out my social media profiles at the bottom of the page 🙃";
+const outroMessage = "Thanks for hanging out! Don't forget to check out my LinkedIn profile at the bottom of the page 🙃";
 const outroID = "outro";
 
 $(document).on("click", "#btnProducts", function(){
@@ -135,12 +135,12 @@ $(document).on("click", "#btnProducts", function(){
 	
 	//Render user reply
 	var idProd1 = (totalMessages - messagesRemaining).toString();
-	ReactDOM.render(<MessageUser message="Show me the products you've designed!" id={"chat-"+idProd1}/>, document.getElementById('userReplies'));
+	ReactDOM.render(<MessageUser message="Tell me about your experience" id={"chat-"+idProd1}/>, document.getElementById('userReplies'));
 	messagesRemaining -= 1;
 	$(".replyButtons").before($("#userReplies").html());
 
 	//Render bot reply
-	var botReply = ["Here ya go 😎"];
+	var botReply = ["Sure thing"];
 	var idProd2 = (totalMessages - messagesRemaining).toString();
 	ReactDOM.render(<MessageBot message={botReply} id={["chat-"+idProd2]} />, document.getElementById('botReplies'));
 	messagesRemaining -= 1;
@@ -186,12 +186,12 @@ $(document).on("click", "#btnProjects", function(){
 	
 	//Render user reply
 	var idProj1 = (totalMessages - messagesRemaining).toString();
-	ReactDOM.render(<MessageUser message="Tell me about your engineering projects" id={"chat-"+idProj1} />, document.getElementById('userReplies'));
+	ReactDOM.render(<MessageUser message="Show me the products you've designed!" id={"chat-"+idProj1} />, document.getElementById('userReplies'));
 	messagesRemaining -= 1;
 	$(".replyButtons").before($("#userReplies").html());
 
 	//Render bot reply
-	var botReply = ["Sure thing"];
+	var botReply = ["Here ya go 😎"];
 	var idProj2 = (totalMessages - messagesRemaining).toString();
 	ReactDOM.render(<MessageBot message={botReply} id={["chat-"+idProj2]} />, document.getElementById('botReplies'));
 	messagesRemaining -= 1;
@@ -243,11 +243,11 @@ $(document).on("click", "#btnAboutMe", function(){
 	//Set messages for 'about me' reply
 	var aboutMe1 = "Does this mean we're friends? 😁";
 	var id1 = "chat-"+(totalMessages - messagesRemaining).toString();
-	var aboutMe2 = "I'm 25 years old and I recently graduated from UC Berkeley's grad school, where I studied Product Design and Mechanical Engineering";
+	var aboutMe2 = "I'm 23 years old and I recently graduated from Purdue's grad school, where I studied Mechanical Engineering and Management";
 	var id2 = "chat-"+(totalMessages - messagesRemaining + 1).toString();
 	var aboutMe3 = "I love technology and I'm currently looking to join a product team! If you've got any leads, please hit me up at jdordonez@berkeley.edu 👍";
 	var id3 = "chat-"+(totalMessages - messagesRemaining + 2).toString();
-	var botFollowUp = "Anyways, wanna see my work?";
+	var botFollowUp = "Wanna see my work?";
 	var botGoodbye = "Thanks for hanging out! 👋"
 	var id4 = "chat-"+(totalMessages - messagesRemaining + 3).toString();
 
