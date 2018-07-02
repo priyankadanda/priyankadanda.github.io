@@ -5,10 +5,10 @@ Waves.init();
 //PORTFOLIO INFO START
 
 //Insert products info here
-const products = [{ "title": "Yipp: The Social Bookmarking App", 
-					"description" : "Yipp let's you create and curate colletions of web pages with others", 
+const products = [{ "title": "Product Design For Apple", 
+					"description" : "Product Design Engineering Co-op for Apple's Cable and Accesories Team", 
 					"banner" : "https://i.imgur.com/3ZmAQu3.png",
-					"url" : "yipp.html" },
+					"url" : "Apple.html" },
 					{ "title": "LikeWallet", 
 					"description" : "LikeWallet provides ROI analytics for social media Influencers", 
 					"banner" : "https://i.imgur.com/a7Plstl.jpg", 
