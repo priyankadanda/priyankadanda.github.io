@@ -98,7 +98,7 @@ class MessageBot extends React.Component {
 
 			<div className="chatContainer animated slideInUp d-flex flex-row justify-content-start align-items-end">
 				<div className="thumbnail" id={"pic-"+ids[0]}>
-					<img src="https://i.imgur.com/82uekFX.jpg"></img>
+					<img src="https://i.imgur.com/qo6Fe88.jpg"></img>
 				</div>
 				<ul className="chatBubbles">
 					{messages}
