@@ -5,11 +5,23 @@ Waves.init();
 //PORTFOLIO INFO START
 
 //Insert products info here
-const products = [{ "title": "Product Design For Apple", 
+const products = [{ "title": "Apple", 
 					"description" : "Product Design Engineering Co-op for Apple's Cable and Accesories Team", 
 					"banner" : "https://i.imgur.com/kME5mxG.png",
 					"url" : "apple.html" },
-					{ "title": "LikeWallet", 
+					{ "title": "Bridgestone", 
+					"description" : "LikeWallet provides ROI analytics for social media Influencers", 
+					"banner" : "https://i.imgur.com/a7Plstl.jpg", 
+					"url" : "likewallet.html"},
+		{ "title": "C-Design Lab", 
+					"description" : "LikeWallet provides ROI analytics for social media Influencers", 
+					"banner" : "https://i.imgur.com/a7Plstl.jpg", 
+					"url" : "likewallet.html"}, 
+		 { "title": "Indian Institute of Technology, Hyderabad", 
+					"description" : "LikeWallet provides ROI analytics for social media Influencers", 
+					"banner" : "https://i.imgur.com/a7Plstl.jpg", 
+					"url" : "likewallet.html"},
+		 { "title": "Nuclear Fuel Complex- Department of Atomic Energy", 
 					"description" : "LikeWallet provides ROI analytics for social media Influencers", 
 					"banner" : "https://i.imgur.com/a7Plstl.jpg", 
 					"url" : "likewallet.html"}];
