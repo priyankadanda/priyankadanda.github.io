@@ -186,7 +186,7 @@ $(document).on("click", "#btnProjects", function(){
 	
 	//Render user reply
 	var idProj1 = (totalMessages - messagesRemaining).toString();
-	ReactDOM.render(<MessageUser message="Show me the products you've designed!" id={"chat-"+idProj1} />, document.getElementById('userReplies'));
+	ReactDOM.render(<MessageUser message="I want to know about your projects!" id={"chat-"+idProj1} />, document.getElementById('userReplies'));
 	messagesRemaining -= 1;
 	$(".replyButtons").before($("#userReplies").html());
 
@@ -245,7 +245,7 @@ $(document).on("click", "#btnAboutMe", function(){
 	var id1 = "chat-"+(totalMessages - messagesRemaining).toString();
 	var aboutMe2 = "I'm 23 years old and I recently graduated from Purdue's grad school, where I studied Mechanical Engineering and Management";
 	var id2 = "chat-"+(totalMessages - messagesRemaining + 1).toString();
-	var aboutMe3 = "I love technology and I'm currently looking to join a product team! If you've got any leads, please hit me up at jdordonez@berkeley.edu 👍";
+	var aboutMe3 = "I love technology and I'm currently looking to join a product design team! If you've got any leads, please email me at pdanda@purdue.edu 👍";
 	var id3 = "chat-"+(totalMessages - messagesRemaining + 2).toString();
 	var botFollowUp = "Wanna see my work?";
 	var botGoodbye = "Thanks for hanging out! 👋"
