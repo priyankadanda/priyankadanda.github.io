@@ -22,7 +22,7 @@ const projects = [{ "title": "Berkeley Hyperloop",
 					{ "title": "Tensegrity Robot For NASA", 
 					"description" : "Designed, prototyped, controlled and tested the world's first actuated 12-bar Tensegrity robot for planetary exploration", 
 					"banner" : "https://media.giphy.com/media/3ohs4yLSGMYG06pKG4/giphy.gif",
-					"url" : "tensegrity.html" }];
+					"url" : "apple.html" }];
 
 //PORTFOLIO INFO END
 
