@@ -8,7 +8,7 @@ Waves.init();
 const products = [{ "title": "Product Design For Apple", 
 					"description" : "Product Design Engineering Co-op for Apple's Cable and Accesories Team", 
 					"banner" : "https://i.imgur.com/kME5mxG.png",
-					"url" : "Apple.html" },
+					"url" : "apple.html" },
 					{ "title": "LikeWallet", 
 					"description" : "LikeWallet provides ROI analytics for social media Influencers", 
 					"banner" : "https://i.imgur.com/a7Plstl.jpg", 
