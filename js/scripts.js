@@ -16,21 +16,21 @@ const products = [{ "title": "Apple",
 		{ "title": "C-Design Lab", 
 					"description" : "Graduate Assistant for Purdue's C-Design Lab", 
 					"banner" : "https://i.imgur.com/IEohR34.png", 
-					"url" : "likewallet.html"}];
+					"url" : "cdesign.html"}];
 
 //Insert projects info here
 const projects = [{ "title": "Floor Cleaning Robot", 
 					"description" : "Designed an autonomous robot that can track, sort, pickup and drop ball bearings in a no light situation.", 
 					"banner" : "https://i.imgur.com/Dbo3KhP.png",
-					"url" : "bloop.html" },
+					"url" : "mechatronics.html" },
 					{ "title": "Refrigeration Solution for office purposes", 
 					"description" : "Designed a solution for shared refrigerator space for offices to increase efficiency in maintenance.", 
 					"banner" : "https://i.imgur.com/0XjdIHP.png",
-					"url" : "apple.html" },
+					"url" : "refridgerator.html" },
 		 { "title": "Electric Solar Vehicle", 
 					"description" : "Designed and manufactured a Solar and Battery powered vehicle as part of the ESVC Championship conducted by Lovely Professional University, Punjab", 
 					"banner" : "https://i.imgur.com/64maPXD.jpg?1",
-					"url" : "apple.html" }];
+					"url" : "esvc.html" }];
 
 //PORTFOLIO INFO END
 
