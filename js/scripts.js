@@ -26,11 +26,8 @@ const projects = [{ "title": "Floor Cleaning Robot",
 					{ "title": "Refrigeration Solution for office purposes", 
 					"description" : "Designed a solution for shared refrigerator space for offices to increase efficiency in maintenance.", 
 					"banner" : "https://i.imgur.com/0XjdIHP.png",
-					"url" : "refridgerator.html" },
-		 { "title": "Electric Solar Vehicle", 
-					"description" : "Designed and manufactured a Solar and Battery powered vehicle as part of the ESVC Championship conducted by Lovely Professional University, Punjab", 
-					"banner" : "https://i.imgur.com/64maPXD.jpg?1",
-					"url" : "esvc.html" }];
+					"url" : "refridgerator.html" }
+		];
 
 //PORTFOLIO INFO END
 
