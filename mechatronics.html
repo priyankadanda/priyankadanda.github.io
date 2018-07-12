@@ -72,33 +72,33 @@
 			<div class="row mt-4">
 
 				<div class="col-sm-12 col-md-6 mb-3">
-					<h2>Students First 🎓</h2>
-					<p>The primary target users are students working on group projects or planning group activities.</p>
+					<h2>Sweeping the Floor 🎯</h2>
+					<p>Taking advantage of the floor layout, we used a line detecting sensor and programmed the robot to spiral around the outline and cover the entire field by using encoder counts on the drive motors.</p>
 				</div>
 
 				<div class="col-sm-12 col-md-6 mb-3">
-					<h2>Research is Done Indivdually ⏰</h2>
-					<p>Users are disconnected to their teammates because they do research individually at different times and places.</p>
+					<h2>Funnel in and capture 🥅</h2>
+					<p>As the robot encounters bearings on the floor, its body has a funnel like structure where it directs and focuses the ball in a narrow space.</p>
 				</div>
 
 				<div class="col-sm-12 col-md-6 mb-3">
-					<h2>Desktop Lives 🖥</h2>
-					<p>Users still do most of their internet research/planning on their laptops because it allows them to skim and track web pages faster than on mobile.</p>
+					<h2>Triggering Lift mechanism 👁️</h2>
+					<p>When the bearing is captured in the funnel, it triggers an Ultasonic sensor signaling the robot to pause moving and start its lift.</p>
 				</div>
 
 				<div class="col-sm-12 col-md-6 mb-3">
-					<h2>Losing Tabs is Scary But Bookmarks are Scarier 👻 </h2>
-					<p>Users' commonly have over 10 chrome tabs for fear of losing information, but are reluctant to bookmarking pages because they want to avoid clutter.</p>
+					<h2>Lift 🏋️ </h2>
+					<p>A scooping arm lifts the bearing in an channel and deposits it in a bin. There are SPDT switches placed strategically to cut off power to the lift motor. It then reverses it's direction and goes to initial position. The robot then resumes its motion.</p>
 				</div>
 
 				<div class="col-sm-12 col-md-6 mb-3">
-					<h2>Sharing Links is Spamming 😩</h2>
-					<p>Users share less than 10% of sources researched to their teammates because they don’t wanna spam them, yet they admit to learning important information from the unshared sources.</p>
+					<h2>Storing and dropping 🗑️</h2>
+					<p>The H-bridge connected to the lift motor measures the current required to lift the bearing and determines the size of the ball. The bin is slightly slanted allowing the ball to fall downwards. When it approaches the location to be dropped off, it swivels its gate and drops off the ball.</p>
 				</div>
 
 				<div class="col-sm-12 col-md-6">
-					<h2>Group Chats are the Dominant Platform for Sharing Links 💬</h2>
-					<p>Users share sources by sending links to group chats because its quick and enables instant feedback/communication, but links often get lost in the clutter of messages.</p>
+					<h2>Communication with Z-bot 💬</h2>
+					<p> The robot communicates with the Z-bot using a Bluetooth module. It commands the Z-bot to go to a certain location to avoid collison or to drop the bearings in it's bin.</p>
 				</div>
 
 			</div>
