@@ -248,9 +248,9 @@ $(document).on("click", "#btnAboutMe", function(){
 	//Set messages for 'about me' reply
 	var aboutMe1 = "Does this mean we're friends? 😁";
 	var id1 = "chat-"+(totalMessages - messagesRemaining).toString();
-	var aboutMe2 = "I'm an Engineering Management grad from Purdue University, currently building an awesome SaaS platform as a Business Analyst";
+	var aboutMe2 = "I'm currently building an awesome SaaS platform for legal teams as a Product Manager";
 	var id2 = "chat-"+(totalMessages - messagesRemaining + 1).toString();
-	var aboutMe3 = "Psst. I manage the project too! We can discuss this over some coffee ☕";
+	var aboutMe3 = "Psst. I am the UX designer for my projects as well! We can discuss this over some coffee ☕";
 	var id3 = "chat-"+(totalMessages - messagesRemaining + 2).toString();
 	var aboutMe4 = "I love technology and I'm currently looking to join a product team as a product manager! If you've got any leads, email me at danda_priyanka@outlook.com 👍";
 	var id4 = "chat-"+(totalMessages - messagesRemaining + 3).toString();
@@ -260,10 +260,10 @@ $(document).on("click", "#btnAboutMe", function(){
 
 	//Only include bot follow up if this is not the final prompt
 	if ($(".replyButtons").children().length > 1) {
-		var messages = [aboutMe1, aboutMe2, aboutMe3, botFollowUp];
+		var messages = [aboutMe1, aboutMe2, aboutMe3, aboutMe4, botFollowUp];
 		var ids = [id1, id2, id3, id4];
 	} else {
-		var messages = [aboutMe1, aboutMe2, aboutMe3, botGoodbye];
+		var messages = [aboutMe1, aboutMe2, aboutMe3, aboutMe4, botGoodbye];
 		var ids = [id1, id2, id3, id4];
 	}
 
